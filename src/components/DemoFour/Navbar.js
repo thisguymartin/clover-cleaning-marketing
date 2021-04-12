@@ -112,11 +112,11 @@ const Navbar = () => {
                             </li>
                         </ul>
 
-                        {/* <div className="side-nav">
+                        <div className="side-nav">
                             <Link to="#" className="common-btn four">
                                 Download CV <i className='bx bxs-download'></i>
                             </Link>
-                        </div> */}
+                        </div>
                     </div>
                 </div>
             </nav>

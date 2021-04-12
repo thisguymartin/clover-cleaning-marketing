@@ -5,7 +5,6 @@ const preferDefault = m => (m && m.default) || m
 
 
 exports.components = {
-  "component---cache-dev-404-page-js": hot(preferDefault(require("/Users/mpatino/Desktop/clover/.cache/dev-404-page.js"))),
   "component---src-pages-404-js": hot(preferDefault(require("/Users/mpatino/Desktop/clover/src/pages/404.js"))),
   "component---src-pages-blog-details-js": hot(preferDefault(require("/Users/mpatino/Desktop/clover/src/pages/blog-details.js"))),
   "component---src-pages-blog-js": hot(preferDefault(require("/Users/mpatino/Desktop/clover/src/pages/blog.js"))),
