@@ -406,7 +406,7 @@ button {
         margin-left: auto;
 
         .nav-link {
-            color: $main-color;
+            color: #329644;
             padding: 0;
             margin-left: 15px;
             margin-right: 15px;
@@ -619,7 +619,7 @@ button {
                 }
                 &:nth-child(4) {
                     a {
-                        color: #053eff  ;
+                        color: #329644  ;
                     }
                 }
                 &:nth-child(5) {
@@ -2325,33 +2325,33 @@ button {
     background-color: $white-color;
 
     .navbar-nav .active > .nav-link, .navbar-nav .nav-link.active, .navbar-nav .nav-link.show, .navbar-nav .show > .nav-link {
-        color: $blue-color;
+        color: #329644
     }
     .navbar-nav .nav-link:focus, .navbar-nav .nav-link:hover {
-        color: $blue-color;
+        color: #329644
     }
     &.is-sticky {
         .navbar-nav {
             .nav-link {
-                color: $main-color;
+                color: #329644;
             }
         }
         .navbar-nav .active>.nav-link, .navbar-nav .nav-link.active, .navbar-nav .nav-link.show, .navbar-nav .show>.nav-link {
-            color: $blue-color;
+            color: #329644;
         }
         .navbar-nav .nav-link:focus, .navbar-nav .nav-link:hover {
-            color: $blue-color;
+            color: #329644;
         }
         .common-btn {
             &:before {
-                border-top: 2px solid $blue-color;
-                border-left: 2px solid $blue-color;
-                border-bottom: 2px solid $blue-color;
+                border-top: 2px solid #329644;
+                border-left: 2px solid #329644;
+                border-bottom: 2px solid #329644;
             }
             &:after {
-                border-top: 2px solid $blue-color;
-                border-right: 2px solid $blue-color;
-                border-bottom: 2px solid $blue-color;
+                border-top: 2px solid #329644;
+                border-right: 2px solid #329644;
+                border-bottom: 2px solid #329644;
             }
         }
     }
@@ -2426,7 +2426,7 @@ button {
         }
         .banner-btn-area {
             .banner-btn {
-                color: $blue-color;
+                color: #329644;
 
                 &:hover {
                     color: $white-color;

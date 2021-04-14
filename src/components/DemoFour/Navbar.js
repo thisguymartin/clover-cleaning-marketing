@@ -2,9 +2,8 @@ import React from "react"
 import { Link } from "gatsby"
 import { useRecoilState } from "recoil"
 import { sModalState } from "../../utils/recoil-atoms"
-import SidebarDemosModal from "../App/SidebarDemosModal"
 import AnchorLink from "react-anchor-link-smooth-scroll"
-import logo from "../../components/App/assets/images/logo-five.png"
+import logo from "../../components/App/assets/images/clover_logo.svg"
 
 const Navbar = () => {
   const [collapsed, setCollapsed] = React.useState(true)
@@ -46,7 +45,7 @@ const Navbar = () => {
         <div className="container">
           <Link href="/demo-four">
             <a className="navbar-brand">
-              <img src={logo} alt="logo" />
+              <img src={logo} alt="logo" width="60px" />
             </a>
           </Link>
 
@@ -82,29 +81,19 @@ const Navbar = () => {
                   // onClick={toggleNavbar}
                   offset={() => -1}
                   className="nav-link"
+                  href="#services"
+                >
+                  Services
+                </AnchorLink>
+              </li>
+              <li className="nav-item">
+                <AnchorLink
+                  // onClick={toggleNavbar}
+                  offset={() => -1}
+                  className="nav-link"
                   href="#about"
                 >
                   About
-                </AnchorLink>
-              </li>
-              <li className="nav-item">
-                <AnchorLink
-                  // onClick={toggleNavbar}
-                  offset={() => -1}
-                  className="nav-link"
-                  href="#portfolio"
-                >
-                  Portfolio
-                </AnchorLink>
-              </li>
-              <li className="nav-item">
-                <AnchorLink
-                  // onClick={toggleNavbar}
-                  offset={() => -1}
-                  className="nav-link"
-                  href="#blog"
-                >
-                  Blog
                 </AnchorLink>
               </li>
               <li className="nav-item">
@@ -118,24 +107,9 @@ const Navbar = () => {
                 </AnchorLink>
               </li>
             </ul>
-
-            <div className="side-nav">
-              <Link to="#" className="common-btn four">
-                Download CV <i className="bx bxs-download"></i>
-              </Link>
-            </div>
           </div>
         </div>
       </nav>
-
-      {/* Sidebar Demos Modal */}
-      <div className="demo-side-icon">
-        <button type="button" className="modal-btn" onClick={toggleModal}>
-          <span>Demos</span>
-        </button>
-      </div>
-
-      <SidebarDemosModal />
     </React.Fragment>
   )
 }

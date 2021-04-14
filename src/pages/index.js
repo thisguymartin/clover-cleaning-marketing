@@ -14,7 +14,7 @@ import Footer from "../components/DemoFour/Footer"
 const IndexPage = () => (
   <Layout>
     <Navbar />
-    <SEO title="Home Demo Three" />
+    <SEO title="Clover Cleaning Solution" />
     <MainBanner />
     <Works />
     <CaseStudy />

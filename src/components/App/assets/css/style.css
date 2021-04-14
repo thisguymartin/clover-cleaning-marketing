@@ -189,16 +189,16 @@ button:focus {
 }
 
 .common-btn.four {
-  color: #5C2CFF;
-  border: 2px solid #5C2CFF;
+  color: #329644;
+  border: 2px solid #329644;
 }
 
 .common-btn.four:before {
-  background-color: #5C2CFF;
+  background-color: #329644;
 }
 
 .common-btn.four:after {
-  background-color: #5C2CFF;
+  background-color: #329644;
 }
 
 .common-btn.four:hover {
@@ -664,7 +664,7 @@ button:focus {
 }
 
 .banner-area .banner-content ul li:nth-child(4) a {
-  color: #053eff;
+  color: #329644;
 }
 
 .banner-area .banner-content ul li:nth-child(5) a {
@@ -2445,11 +2445,11 @@ button:focus {
 }
 
 .navbar-light.four .navbar-nav .active > .nav-link, .navbar-light.four .navbar-nav .nav-link.active, .navbar-light.four .navbar-nav .nav-link.show, .navbar-light.four .navbar-nav .show > .nav-link {
-  color: #5C2CFF;
+  color: #329644;
 }
 
 .navbar-light.four .navbar-nav .nav-link:focus, .navbar-light.four .navbar-nav .nav-link:hover {
-  color: #5C2CFF;
+  color: #329644;
 }
 
 .navbar-light.four.is-sticky .navbar-nav .nav-link {
@@ -2457,23 +2457,23 @@ button:focus {
 }
 
 .navbar-light.four.is-sticky .navbar-nav .active > .nav-link, .navbar-light.four.is-sticky .navbar-nav .nav-link.active, .navbar-light.four.is-sticky .navbar-nav .nav-link.show, .navbar-light.four.is-sticky .navbar-nav .show > .nav-link {
-  color: #5C2CFF;
+  color: #329644;
 }
 
 .navbar-light.four.is-sticky .navbar-nav .nav-link:focus, .navbar-light.four.is-sticky .navbar-nav .nav-link:hover {
-  color: #5C2CFF;
+  color: #329644;
 }
 
 .navbar-light.four.is-sticky .common-btn:before {
-  border-top: 2px solid #5C2CFF;
-  border-left: 2px solid #5C2CFF;
-  border-bottom: 2px solid #5C2CFF;
+  border-top: 2px solid #329644;
+  border-left: 2px solid #329644;
+  border-bottom: 2px solid #329644;
 }
 
 .navbar-light.four.is-sticky .common-btn:after {
-  border-top: 2px solid #5C2CFF;
-  border-right: 2px solid #5C2CFF;
-  border-bottom: 2px solid #5C2CFF;
+  border-top: 2px solid #329644;
+  border-right: 2px solid #329644;
+  border-bottom: 2px solid #329644;
 }
 
 /*-- Banner --*/
@@ -2501,7 +2501,7 @@ button:focus {
   height: 100%;
   top: 0;
   left: 0;
-  background-color: #5C2CFF;
+  background-color: #329644;
   opacity: .80;
 }
 
@@ -2548,11 +2548,11 @@ button:focus {
 }
 
 .banner-area.four .banner-content .common-btn:hover {
-  color: #5C2CFF;
+  color: #329644;
 }
 
 .banner-area.four .banner-content .banner-btn-area .banner-btn {
-  color: #5C2CFF;
+  color: #329644;
 }
 
 .banner-area.four .banner-content .banner-btn-area .banner-btn:hover {
