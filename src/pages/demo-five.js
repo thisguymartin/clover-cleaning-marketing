@@ -14,22 +14,22 @@ import ContactForm from "../components/DemoFive/ContactForm"
 import Footer from "../components/DemoFive/Footer"
 
 const IndexPage = () => (
-    <Layout>
-        <SEO title="Home Demo Three" />
-        <div className="body-bg-five">
-            <Navbar />
-            <MainBanner />
-            <CaseStudy />
-            <Services />
-            <AboutMe />
-            <FunFacts />
-            <Pricing />
-            <BlogPost />
-            <Testimonials />
-            <ContactForm />
-            <Footer />
-        </div>
-    </Layout>
+  <Layout>
+    <SEO title="Home Demo Three" />
+    <div className="body-bg-five">
+      <Navbar />
+      <MainBanner />
+      <CaseStudy />
+      <Services />
+      <AboutMe />
+      <FunFacts />
+      <Pricing />
+      <BlogPost />
+      <Testimonials />
+      <ContactForm />
+      <Footer />
+    </div>
+  </Layout>
 )
 
 export default IndexPage

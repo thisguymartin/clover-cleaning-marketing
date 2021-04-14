@@ -6,7 +6,7 @@
  */
 
 import React from "react"
-import { RecoilRoot } from 'recoil'
+import { RecoilRoot } from "recoil"
 import Preloader from "./Preloader"
 import GoTop from "./GoTop"
 
@@ -14,7 +14,7 @@ const Layout = ({ children }) => {
   const [loader, setLoader] = React.useState(true)
 
   React.useEffect(() => {
-      setTimeout(() => setLoader(false), 1500);
+    setTimeout(() => setLoader(false), 1500)
   }, [])
 
   return (

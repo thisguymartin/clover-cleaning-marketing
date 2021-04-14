@@ -12,18 +12,18 @@ import ContactForm from "../components/DemoFour/ContactForm"
 import Footer from "../components/DemoFour/Footer"
 
 const IndexPage = () => (
-    <Layout>
-        <Navbar />
-        <SEO title="Home Demo Three" />
-        <MainBanner />
-        <Works />
-        <CaseStudy />
-        <AboutMe />
-        <Testimonials />
-        <BlogPost />
-        <ContactForm />
-        <Footer />
-    </Layout>
+  <Layout>
+    <Navbar />
+    <SEO title="Home Demo Three" />
+    <MainBanner />
+    <Works />
+    <CaseStudy />
+    <AboutMe />
+    <Testimonials />
+    <BlogPost />
+    <ContactForm />
+    <Footer />
+  </Layout>
 )
 
 export default IndexPage

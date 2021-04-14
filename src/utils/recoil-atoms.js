@@ -1,6 +1,6 @@
-import { atom } from 'recoil'
+import { atom } from "recoil"
 
 export const sModalState = atom({
-    key: 'sModalState',
-    default: false,
+  key: "sModalState",
+  default: false,
 })

@@ -14,26 +14,26 @@ import ContactForm from "../components/DemoThree/ContactForm"
 import Footer from "../components/DemoThree/Footer"
 
 const IndexPage = () => (
-    <Layout>
-        <div className="body-bg-five">
-            <div className="main-area two">
-                <Navbar />
-                <SEO title="Home Demo Three" />
-                <div className="main-content two">
-                    <MainBanner />
-                    <About />
-                    <Services />
-                    <Experience />
-                    <Skills />
-                    <Projects />
-                    <BlogPost />
-                    <Testimonials />
-                    <ContactForm />
-                    <Footer />
-                </div>
-            </div>
+  <Layout>
+    <div className="body-bg-five">
+      <div className="main-area two">
+        <Navbar />
+        <SEO title="Home Demo Three" />
+        <div className="main-content two">
+          <MainBanner />
+          <About />
+          <Services />
+          <Experience />
+          <Skills />
+          <Projects />
+          <BlogPost />
+          <Testimonials />
+          <ContactForm />
+          <Footer />
         </div>
-    </Layout>
+      </div>
+    </div>
+  </Layout>
 )
 
 export default IndexPage

@@ -15,23 +15,23 @@ import ContactForm from "../components/DemoSix/ContactForm"
 import Footer from "../components/DemoSix/Footer"
 
 const IndexPage = () => (
-    <Layout>
-        <SEO title="Home Demo Three" />
-        <div className="body-bg-five">
-            <Navbar />
-            <MainBanner />
-            <AboutMe />
-            <Services />
-            <FunFacts />
-            <Gallery />
-            <Pricing />
-            <Testimonials />
-            <Partners />
-            <BlogPost />
-            <ContactForm />
-            <Footer />
-        </div>
-    </Layout>
+  <Layout>
+    <SEO title="Home Demo Three" />
+    <div className="body-bg-five">
+      <Navbar />
+      <MainBanner />
+      <AboutMe />
+      <Services />
+      <FunFacts />
+      <Gallery />
+      <Pricing />
+      <Testimonials />
+      <Partners />
+      <BlogPost />
+      <ContactForm />
+      <Footer />
+    </div>
+  </Layout>
 )
 
 export default IndexPage

@@ -2,7 +2,7 @@ import React from "react"
 import Layout from "../components/App/layout"
 import SEO from "../components/App/seo"
 import Navbar from "../components/Index/Navbar"
-import bannerImg from '../components/App/assets/images/banner/banner-main1.jpg'
+import bannerImg from "../components/App/assets/images/banner/banner-main1.jpg"
 import MainBanner from "../components/Index/MainBanner"
 import About from "../components/Index/About"
 import WhatIDo from "../components/Index/WhatIDo"
