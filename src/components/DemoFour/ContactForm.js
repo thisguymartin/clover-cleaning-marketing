@@ -175,7 +175,7 @@ const ContactForm = () => {
 
           <div className="col-md-5 col-lg-5">
             <div className="contact-content">
-              <div className="top">
+              {/* <div className="top">
                 <ul>
                   <li>
                     <span>Phone:</span>
@@ -198,9 +198,9 @@ const ContactForm = () => {
                     </a>
                   </li>
                 </ul>
-              </div>
+              </div> */}
 
-              <div className="bottom">
+              {/* <div className="bottom">
                 <ul>
                   <li>
                     <a href="#" target="_blank">
@@ -228,7 +228,7 @@ const ContactForm = () => {
                     </a>
                   </li>
                 </ul>
-              </div>
+              </div> */}
             </div>
           </div>
         </div>

@@ -1,5 +1,5 @@
 import React from "react"
-import about from "../../components/App/assets/images/about-main1.png"
+import about from "../../components/App/assets/images/about-us.jpg"
 
 const AboutMe = () => {
   return (
@@ -9,61 +9,26 @@ const AboutMe = () => {
           <div className="col-lg-6">
             <div className="about-content">
               <div className="section-title four">
-                <h2>
-                  See <span>My Story</span>. It's A Long Story To Become A
-                  Graphic Designer And Continue
-                </h2>
+                <h2>About Us</h2>
                 <p>
-                  Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed
-                  diam nonumy eirmod tempor invidunt ut labore et dolore magna
-                  aliquyam erat, seddiam voluptua. At vero eos et accusam et
-                  justo
+                  We understand your work environment is where you conduct
+                  business with it is where you deal with clients and potential
+                  clients on a daily basis. A clean environment is important if
+                  you want to conduct a successful and efficient business. A
+                  clean office creates a positive initial impression, and image,
+                  of your business. Clover Cleaning solutions we can take this
+                  responsibility off of your shoulders and get all of your
+                  cleaning and janitorial completed for you. We want to make
+                  sure you stay ahead of your competition and have one of the
+                  most pristine and professional businesses in your industry.
+                  Clover Cleaning Solutions will partner with the office
+                  managers, facility manager, and/or building owner to
+                  understand the exact specific cleaning requirements and will
+                  then submit a very detailed, written proposal outlining a very
+                  cost-effective solution to meet your cleaning needs.
                 </p>
               </div>
 
-              <div className="row">
-                <div className="col-lg-6">
-                  <div className="left">
-                    <ul>
-                      <li>
-                        <span>Age:</span>
-                        26 Years
-                      </li>
-                      <li>
-                        <span>Residence:</span>
-                        San Francisco
-                      </li>
-                      <li>
-                        <span>Address:</span>
-                        <a href="#" target="_blank">
-                          12/7, Mc Street, Canada
-                        </a>
-                      </li>
-                    </ul>
-                  </div>
-                </div>
-
-                <div className="col-lg-6">
-                  <div className="right">
-                    <ul>
-                      <li>
-                        <span>Phone:</span>
-                        <a href="tel:+00932123456">+009 321 23456</a>
-                      </li>
-                      <li>
-                        <span>Email:</span>
-                        <a href="mailto:hello@reton.com">hello@reton.com</a>
-                      </li>
-                      <li>
-                        <span>Website:</span>
-                        <a href="http://dexia.com" target="_blank">
-                          www.dexia.com
-                        </a>
-                      </li>
-                    </ul>
-                  </div>
-                </div>
-              </div>
             </div>
           </div>
 

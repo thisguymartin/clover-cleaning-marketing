@@ -3,7 +3,7 @@ import Layout from "../components/App/layout"
 import SEO from "../components/App/seo"
 import Navbar from "../components/DemoFour/Navbar"
 import MainBanner from "../components/DemoFour/MainBanner"
-import Works from "../components/DemoFour/Works"
+import Services from "../components/DemoFour/Services"
 import CaseStudy from "../components/DemoFour/CaseStudy"
 import AboutMe from "../components/DemoFour/AboutMe"
 import Testimonials from "../components/DemoFour/Testimonials"
@@ -16,11 +16,11 @@ const IndexPage = () => (
     <Navbar />
     <SEO title="Clover Cleaning Solution" />
     <MainBanner />
-    <Works />
-    <CaseStudy />
+    <Services />
+    {/* <CaseStudy /> */}
     <AboutMe />
     <Testimonials />
-    <BlogPost />
+    {/* <BlogPost /> */}
     <ContactForm />
     <Footer />
   </Layout>
