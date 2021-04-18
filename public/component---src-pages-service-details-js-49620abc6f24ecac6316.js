@@ -1,0 +1,2 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[7],{KfgO:function(e,t,n){"use strict";n.r(t);var a=n("q1tI"),l=n.n(a),r=n("J9WQ"),c=n("8kqg"),u=n("3tg8"),o=n("crP6");t.default=function(){return l.a.createElement(r.a,null,l.a.createElement(u.a,null),l.a.createElement(c.a,{title:"Clover Cleaning Solution"}),l.a.createElement("p",null," test here "),l.a.createElement("h1",null,"test here"),l.a.createElement(o.a,null))}}}]);
+//# sourceMappingURL=component---src-pages-service-details-js-49620abc6f24ecac6316.js.map
