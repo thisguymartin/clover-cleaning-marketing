@@ -15,7 +15,6 @@ const Services = () => {
                 <ul className="list-inline">
                   <li class="list-inline-item"> Restroom cleaning</li>
                   <li class="list-inline-item"> General office cleaning</li>
-                  <li class="list-inline-item"> Restroom cleaning</li>
                   <li class="list-inline-item"> Common area cleaning</li>
                   <li class="list-inline-item">
                      Paper product and soap restocking
