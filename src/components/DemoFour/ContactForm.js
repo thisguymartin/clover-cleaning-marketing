@@ -56,7 +56,7 @@ const ContactForm = () => {
       <div className="container">
         <div className="section-title four">
           <h2>
-            Yes! You Are Here! Have You Any <span>Project?</span> Drop A Line
+            Yes! You Are Here! Have You Any <span>Projects?</span> Drop A Line
             Here
           </h2>
         </div>

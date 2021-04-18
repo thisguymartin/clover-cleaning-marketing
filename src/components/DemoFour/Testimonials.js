@@ -37,8 +37,7 @@ const Testimonials = () => {
       <div className="container">
         <div className="section-title four">
           <h2>
-            Some Good <span>Reviews</span> From My Clients Which Always Inspire
-            Me
+           Customer Reviews
           </h2>
         </div>
 

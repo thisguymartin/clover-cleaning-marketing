@@ -96,8 +96,8 @@ button:focus {
 .common-btn {
   display: inline-block;
   font-weight: 600;
-  color: #F68338;
-  border: 2px solid #F68338;
+  color: #329644;
+  border: 2px solid #329644;
   padding: 12px 25px;
   font-size: 15px;
   position: relative;
@@ -111,7 +111,7 @@ button:focus {
   height: 100%;
   top: 0;
   left: 0;
-  background-color: #F68338;
+  background-color: #329644;
   -webkit-transition: 0.5s all ease;
   transition: 0.5s all ease;
   z-index: -1;
@@ -127,7 +127,7 @@ button:focus {
   height: 100%;
   top: 0;
   right: 0;
-  background-color: #F68338;
+  background-color: #329644;
   -webkit-transition: 0.5s all ease;
   transition: 0.5s all ease;
   z-index: -1;
@@ -334,7 +334,7 @@ button:focus {
 }
 
 .section-title.four h2 span {
-  color: #5C2CFF;
+  color: #329644;
 }
 
 .section-title.five {
@@ -1296,10 +1296,10 @@ button:focus {
   width: 35px;
   height: 35px;
   text-align: center;
-  border: 1px solid #F68338 !important;
+  border: 1px solid #329644 !important;
   font-size: 25px !important;
   border-radius: 0 !important;
-  color: #F68338 !important;
+  color: #329644 !important;
   -webkit-transition: 0.5s all ease;
   transition: 0.5s all ease;
   background-color: transparent;
@@ -1313,7 +1313,7 @@ button:focus {
 
 .review-area .owl-theme .owl-nav .owl-prev:hover, .review-area .owl-theme .owl-nav .owl-next:hover {
   color: #fff !important;
-  background-color: #F68338 !important;
+  background-color: #329644 !important;
 }
 
 /*-- Contact --*/
@@ -2334,7 +2334,7 @@ button:focus {
   height: 100%;
   top: 0;
   left: 0;
-  background-color: #5C2CFF;
+  background-color: #329644;
   opacity: 0;
   z-index: 1;
   -webkit-transition: 0.5s all ease;
@@ -2597,7 +2597,7 @@ button:focus {
   height: 100%;
   top: 0;
   left: 0;
-  background-color: #5C2CFF;
+  background-color: #329644;
   opacity: 0;
   z-index: 1;
   -webkit-transition: 0.5s all ease;
@@ -2702,7 +2702,7 @@ button:focus {
   height: 100%;
   top: 0;
   left: 0;
-  background-color: #5C2CFF;
+  background-color: #329644;
   opacity: 0;
   z-index: 1;
   -webkit-transition: 0.5s all ease;
@@ -2796,7 +2796,7 @@ button:focus {
 }
 
 .case-study-area .case-study-content h3 a:hover {
-  color: #5C2CFF;
+  color: #329644;
 }
 
 .case-study-area .case-study-content p {
@@ -2805,7 +2805,7 @@ button:focus {
 
 .case-study-area .case-study-content .case-study-btn {
   display: inline-block;
-  color: #5C2CFF;
+  color: #329644;
   font-weight: 600;
   font-size: 15px;
 }
@@ -2854,7 +2854,7 @@ button:focus {
   bottom: 0;
   margin-left: auto;
   margin-right: auto;
-  /* border: 3px solid #5C2CFF; */
+  /* border: 3px solid #329644; */
   z-index: -1;
 }
 
@@ -2864,12 +2864,12 @@ button:focus {
 }
 
 .review-area.four .review-item i {
-  color: #5C2CFF;
+  color: #329644;
 }
 
 .review-area.four .owl-prev {
-  border: 1px solid #5C2CFF !important;
-  color: #5C2CFF !important;
+  border: 1px solid #329644 !important;
+  color: #329644 !important;
   position: absolute;
   top: 45%;
   left: -30px;
@@ -2877,12 +2877,12 @@ button:focus {
 
 .review-area.four .owl-prev:hover {
   color: #fff !important;
-  background-color: #5C2CFF !important;
+  background-color: #329644 !important;
 }
 
 .review-area.four .owl-next {
-  border: 1px solid #5C2CFF !important;
-  color: #5C2CFF !important;
+  border: 1px solid #329644 !important;
+  color: #329644 !important;
   position: absolute;
   top: 45%;
   right: -30px;
@@ -2890,16 +2890,16 @@ button:focus {
 
 .review-area.four .owl-next:hover {
   color: #fff !important;
-  background-color: #5C2CFF !important;
+  background-color: #329644 !important;
 }
 
 .review-area.four .owl-theme .owl-dots .owl-dot span {
   background: transparent;
-  border: 1px solid #5C2CFF;
+  border: 1px solid #329644;
 }
 
 .review-area.four .owl-theme .owl-dots .owl-dot.active span, .review-area.four .owl-theme .owl-dots .owl-dot:hover span {
-  background: #5C2CFF;
+  background: #329644;
 }
 
 .review-area.four .owl-dots {
@@ -2908,15 +2908,15 @@ button:focus {
 
 /*-- Blog --*/
 .blog-area.four .blog-item .top h4 {
-  background-color: #5C2CFF;
+  background-color: #329644;
 }
 
 .blog-area.four .blog-item .bottom h3 a:hover {
-  color: #5C2CFF;
+  color: #329644;
 }
 
 .blog-area.four .blog-item .bottom .blog-btn {
-  color: #5C2CFF;
+  color: #329644;
 }
 
 .blog-area.four .blog-item .bottom .blog-btn:hover {
@@ -2925,7 +2925,7 @@ button:focus {
 
 /*-- Contact --*/
 .contact-area.four .contact-content .top ul li a:hover {
-  color: #5C2CFF;
+  color: #329644;
 }
 
 /*-- Copyright --*/
@@ -2934,7 +2934,7 @@ button:focus {
 }
 
 .copyright-area.four .copyright-item p a {
-  color: #5C2CFF;
+  color: #329644;
 }
 
 .copyright-area.four .copyright-item p a:hover {
@@ -3501,13 +3501,13 @@ button:focus {
 }
 
 .review-area.five .owl-theme .owl-nav .owl-prev, .review-area.five .owl-theme .owl-nav .owl-next {
-  border: 1px solid #ED2C66 !important;
-  color: #ED2C66 !important;
+  border: 1px solid #329644 !important;
+  color: #329644 !important;
 }
 
 .review-area.five .owl-theme .owl-nav .owl-prev:hover, .review-area.five .owl-theme .owl-nav .owl-next:hover {
   color: #fff !important;
-  background-color: #ED2C66 !important;
+  background-color: #329644 !important;
 }
 
 /*-- Contact --*/
@@ -4735,7 +4735,7 @@ button:focus {
   bottom: 0;
   right: 15px;
   color: #ffffff;
-  background-color: #F68338;
+  background-color: #329644;
   z-index: 4;
   width: 45px;
   text-align: center;
@@ -4745,7 +4745,7 @@ button:focus {
   -webkit-transition: .9s;
   transition: .9s;
   border-radius: 50%;
-  border: 1px solid #F68338;
+  border: 1px solid #329644;
 }
 
 .go-top i {
