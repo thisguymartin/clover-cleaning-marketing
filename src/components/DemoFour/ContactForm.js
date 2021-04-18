@@ -28,29 +28,32 @@ const INITIAL_STATE = {
 }
 
 const ContactForm = () => {
-  const [contact, setContact] = useState(INITIAL_STATE)
-  const [state, handleSubmit] = useForm("mwkaponb");
+  // const [contact, setContact] = useState(INITIAL_STATE)
+  const [state, handleSubmit] = useForm("mwkaponb")
 
-  const handleChange = e => {
-    const { name, value } = e.target
-    setContact(prevState => ({ ...prevState, [name]: value }))
-    // console.log(contact)
-  }
+  // const handleChange = e => {
+  //   const { name, value } = e.target
+  //   // setContact(prevState => ({ ...prevState, [name]: value }))
+  //   // console.log(contact)
+  // }
 
-  const onSubmit = async e => {
-    // e.preventDefault();
-    try {
-      // const url = `${baseUrl}/api/contact`;
-      const { name, email, number, subject, text } = contact
-      const payload = { name, email, number, subject, text }
-      // await axios.post(url, payload);
-      // console.log(url);
-      setContact(INITIAL_STATE)
-      alertContent()
-    } catch (error) {
-      // console.log(error)
-    }
+  if (state.succeeded && !state.submitting) {
+    alertContent()
   }
+  // const onSubmit = async e => {
+  //   // e.preventDefault();
+  //   try {
+  //     // const url = `${baseUrl}/api/contact`;
+  //     const { name, email, number, subject, text } = contact
+  //     const payload = { name, email, number, subject, text }
+  //     // await axios.post(url, payload);
+  //     // console.log(url);
+  //     setContact(INITIAL_STATE)
+  //     alertContent()
+  //   } catch (error) {
+  //     // console.log(error)
+  //   }
+  // }
 
   return (
     <div id="contact" className="contact-area four pb-70">
@@ -64,35 +67,130 @@ const ContactForm = () => {
 
         <div className="row align-items-center">
           <div className="col-md-7 col-lg-7">
-          <form onSubmit={handleSubmit}>
-      <label htmlFor="email">
-        Email Address
-      </label>
-      <input
-        id="email"
-        type="email" 
-        name="email"
-      />
-      <ValidationError 
-        prefix="Email" 
-        field="email"
-        errors={state.errors}
-      />
-      <textarea
-        id="message"
-        name="message"
-      />
-      <ValidationError 
-        prefix="Message" 
-        field="message"
-        errors={state.errors}
-      />
-      <button type="submit" disabled={state.submitting}>
-        Submit
-      </button>
-    </form>
-         
-         
+            <form id="contactForm" onSubmit={handleSubmit}>
+              <div className="row">
+                <div className="col-lg-6">
+                  <div className="form-group">
+                    <input
+                      type="text"
+                      name="name"
+                      className="form-control"
+                      placeholder="Name"
+                      // value={contact.name}
+                      // onChange={handleChange}
+                    />
+                    <div
+                      className="invalid-feedback"
+                      style={{ display: "block" }}
+                    >
+                      <ValidationError
+                        prefix="name"
+                        field="name"
+                        errors={state.errors}
+                      />{" "}
+                    </div>
+                  </div>
+                </div>
+
+                <div className="col-lg-6">
+                  <div className="form-group">
+                    <input
+                      id="email"
+                      type="email"
+                      name="email"
+                      className="form-control"
+                      placeholder="Email"
+                      // value={contact.email}
+                      // onChange={handleChange}
+                    />
+                    <div
+                      className="invalid-feedback"
+                      style={{ display: "block" }}
+                    >
+                      <ValidationError
+                        prefix="email"
+                        field="email"
+                        errors={state.errors}
+                      />{" "}
+                    </div>
+                  </div>
+                </div>
+
+                <div className="col-lg-6">
+                  <div className="form-group">
+                    <input
+                      type="text"
+                      name="subject"
+                      className="form-control"
+                      placeholder="Subject"
+                      // value={contact.subject}
+                      // onChange={handleChange}
+                    />
+                    <div
+                      className="invalid-feedback"
+                      style={{ display: "block" }}
+                    >
+                      <ValidationError
+                        prefix="subject"
+                        field="subject"
+                        errors={state.errors}
+                      />
+                    </div>
+                  </div>
+                </div>
+
+                <div className="col-lg-6">
+                  <div className="form-group">
+                    <input
+                      type="text"
+                      name="number"
+                      className="form-control"
+                      placeholder="Phone"
+                      // value={contact.number}
+                      // onChange={handleChange}
+                    />
+                    <div
+                      className="invalid-feedback"
+                      style={{ display: "block" }}
+                    >
+                      <ValidationError
+                        prefix="number"
+                        field="number"
+                        errors={state.errors}
+                      />{" "}
+                    </div>
+                  </div>
+                </div>
+
+                <div className="col-lg-12">
+                  <div className="form-group">
+                    <textarea
+                      name="text"
+                      className="form-control"
+                      cols="30"
+                      rows="6"
+                      placeholder="Write message"
+                      // value={contact.text}
+                      // onChange={handleChange}
+                    />
+                    <div
+                      className="invalid-feedback"
+                      style={{ display: "block" }}
+                    >
+                      <ValidationError
+                        prefix="text"
+                        field="text"
+                        errors={state.errors}
+                      />{" "}
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <button type="submit" className="btn common-btn">
+                Send Message <span></span>
+              </button>
+            </form>
           </div>
 
           <div className="col-md-5 col-lg-5">
