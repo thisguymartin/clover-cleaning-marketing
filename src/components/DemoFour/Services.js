@@ -1,40 +1,53 @@
 import React from "react"
-import about from "../../components/App/assets/images/about-us.jpg"
+import about from "../../components/App/assets/images/services.jpg"
 import { Link } from "gatsby"
 
 const Services = () => {
   return (
     <div id="about" className="about-area four pb-70">
-      <div className="container">
-        <div className="row align-items-center">
+      <div className="container ">
+        <div className="row align-items-center ">
           <div className="col-lg-6">
-            <div className="about-content">
+            <div className="about-content pt-70">
               <div className="section-title four">
                 <h2>Our Services</h2>
-                <ul>
-                  <li>● Restroom cleaning</li>
-                  <li>● General office cleaning</li>
-                  <li>● Restroom cleaning</li>
-                  <li>● Common area cleaning</li>
-                  <li>● Paper product and soap restocking</li>
 
-                  <li>● Inventory control </li>
+                <ul className="list-inline">
+                  <li class="list-inline-item"> Restroom cleaning</li>
+                  <li class="list-inline-item"> General office cleaning</li>
+                  <li class="list-inline-item"> Restroom cleaning</li>
+                  <li class="list-inline-item"> Common area cleaning</li>
+                  <li class="list-inline-item">
+                     Paper product and soap restocking
+                  </li>
 
-                  <li>
-                    ● Cleaning and disinfecting high touch services that helps
+                  <li class="list-inline-item"> Inventory control </li>
+
+                  <li class="list-inline-item">
+                     Cleaning and disinfecting high touch services that helps
                     fight the Covid19.
                   </li>
-                  <li>
-                    ● Carpet care and cleaning floor restoration ● High dustin
+                  <li class="list-inline-item">
+                     Carpet care and cleaning floor restoration 
+                  </li>
+                  <li class="list-inline-item">
+                  High dustin
                     (Monthly or quarterly )
                   </li>
-                  <li>● Porter services ● Waste and recycle removal</li>
-                  <li>● Window cleaning</li>
+                  <li class="list-inline-item">
+                     Porter services  
+                  </li>
+                  <li class="list-inline-item">
+                  Waste and recycle removal
+                  </li>
+                  <li class="list-inline-item"> Window cleaning</li>
                 </ul>
-                <Link to="/service-details" className="common-btn four">
-                View Details
-              </Link>
               </div>
+            </div>
+          </div>
+          <div className="col-lg-6">
+            <div className="about-img-two">
+              <img src={about} alt="About" />
             </div>
           </div>
         </div>

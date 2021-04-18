@@ -330,7 +330,9 @@ button:focus {
   margin-left: auto;
   margin-right: auto;
   text-align: center;
-  margin-top: -10px;
+    margin-top: 20px;
+
+  /* margin-top: -10px; */
 }
 
 .section-title.four h2 span {
@@ -2831,6 +2833,8 @@ button:focus {
 
 .about-area.four .section-title.four h2 {
   font-size: 38px;
+  padding-bottom: 20px;
+  color: #329644 ;
 }
 
 .about-area.four .about-img-two {

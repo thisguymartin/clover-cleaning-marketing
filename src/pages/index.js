@@ -7,7 +7,7 @@ import Services from "../components/DemoFour/Services"
 import CaseStudy from "../components/DemoFour/CaseStudy"
 import AboutMe from "../components/DemoFour/AboutMe"
 import Testimonials from "../components/DemoFour/Testimonials"
-import BlogPost from "../components/DemoFour/BlogPost"
+import Expectations from "../components/DemoFour/Expectations"
 import ContactForm from "../components/DemoFour/ContactForm"
 import Footer from "../components/DemoFour/Footer"
 
@@ -17,7 +17,7 @@ const IndexPage = () => (
     <SEO title="Clover Cleaning Solution" />
     <MainBanner />
     <Services />
-    {/* <CaseStudy /> */}
+    <Expectations />
     <AboutMe />
     <Testimonials />
     {/* <BlogPost /> */}

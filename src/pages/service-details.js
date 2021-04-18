@@ -5,15 +5,26 @@ import Navbar from "../components/DemoFour/Navbar"
 import Footer from "../components/DemoFour/Footer"
 
 const ServicesDetails = () => (
-  <Layout>
+  // <Layout>
+  <div>
     <Navbar />
     <SEO title="Clover Cleaning Solution" />
-     <p> test here </p>
-
-
-     <h1>test here</h1>
+    <div class="container">
+  <div class="row">
+    <div class="col-sm">
+      One of three columns
+    </div>
+    <div class="col-sm">
+      One of three columns
+    </div>
+    <div class="col-sm">
+      One of three columns
+    </div>
+  </div>
+</div>
     <Footer />
-  </Layout>
+  {/* </Layout> */}
+  </div>
 )
 
 export default ServicesDetails
