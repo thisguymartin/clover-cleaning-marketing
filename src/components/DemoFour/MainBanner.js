@@ -8,7 +8,7 @@ const MainBanner = () => {
         <div className="d-table-cell">
           <div className="container">
             <div className="banner-content">
-              <h1>Clover Cleaning Solution</h1>
+              <h1>Clover Cleaning Solutions</h1>
               <p>
                 One goal, one passion - <span>Commitment</span>
               </p>
@@ -18,7 +18,7 @@ const MainBanner = () => {
                   className="common-btn banner-btn"
                   href="#contact"
                 >
-                  Hire Us
+                  Get a Free Quote
                 </AnchorLink>
               </div>
             </div>

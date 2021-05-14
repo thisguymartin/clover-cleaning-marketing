@@ -59,10 +59,9 @@ const ContactForm = () => {
     <div id="contact" className="contact-area four pb-70">
       <div className="container">
         <div className="section-title four">
-          <h2>
-            Yes! You Are Here! Have You Any <span>Projects?</span> Drop A Line
-            Here
-          </h2>
+          <h3>
+          Contact us for an opportunity to a competitive quote and lasting partnership relationship.
+          </h3>
         </div>
 
         <div className="row align-items-center">
